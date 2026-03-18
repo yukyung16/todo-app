@@ -19,6 +19,7 @@
   --radius:14px;--radius-sm:8px;
   --shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04);
   --shadow-md:0 2px 8px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06);
+  @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
   --font-ui: -apple-system, 'Helvetica Neue', Arial, sans-serif;
   --font-mono: 'Courier New', monospace;
   --safe-top: env(safe-area-inset-top);
@@ -30,7 +31,7 @@ body{font-family:var(--font-ui);background:var(--bg);-webkit-font-smoothing:anti
 .app{max-width:420px;margin:0 auto;min-height:100vh;min-height:-webkit-fill-available;background:var(--bg);display:flex;flex-direction:column;}
 .header{background:var(--surface);padding:calc(12px + var(--safe-top)) 20px 0;border-bottom:1px solid rgba(0,0,0,.06);flex-shrink:0;}
 .header-inner{display:flex;align-items:flex-start;justify-content:space-between;}
-.header-title{font-size:28px;font-weight:800;color:var(--text1);letter-spacing:-1px;font-style:italic;}
+.header-title{font-size:28px;font-weight:800;color:var(--text1);letter-spacing:-1px;font-family:'Gaegu',cursive;}
 .header-sub{font-family:var(--font-mono);font-size:11px;color:var(--text3);margin-top:3px;}
 .today-badge{font-family:var(--font-mono);font-size:11px;padding:3px 8px;background:var(--gold-bg);color:var(--gold);border-radius:20px;border:1px solid #f0d898;margin-top:2px;}
 .tabs{display:flex;margin-top:16px;}
@@ -198,6 +199,7 @@ body{font-family:var(--font-ui);background:var(--bg);-webkit-font-smoothing:anti
 .edit-save{background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);padding:8px 18px;font-size:14px;font-weight:600;font-family:var(--font-ui);cursor:pointer;}
 .emoji-picker{position:fixed;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px;box-shadow:var(--shadow-md);display:flex;flex-wrap:wrap;gap:6px;width:230px;z-index:400;}
 .emoji-opt{font-size:22px;cursor:pointer;padding:4px;border-radius:6px;line-height:1;}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap">
 </style>
 </head>
 <body>
